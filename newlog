@@ -1,0 +1,1 @@
+gs.${1|info,warn,error|}(gs.getMessage('$2',[]));
