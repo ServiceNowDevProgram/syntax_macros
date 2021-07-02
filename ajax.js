@@ -1,9 +1,9 @@
 /**
 * Description: 
-* @class    ScriptInclude Class Name:				        	ScriptIncludeClass
-* @funciton ScriptInclude Function name being called:	scriptIncludeFunction
-* @param Additional Parameters:							          sysparm_custom_parameter
-* @callback Callback Method that will be called:		  callbackFunction									
+* @class    ScriptInclude Class Name:                 ScriptIncludeClass
+* @funciton ScriptInclude Function name being called: scriptIncludeFunction
+* @param    Additional Parameters:                    sysparm_custom_parameter
+* @callback Callback Method that will be called:      callbackFunction									
 */
 
 var ga = new GlideAjax('ScriptIncludeClass');
