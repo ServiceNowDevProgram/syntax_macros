@@ -1,0 +1,1 @@
+${1|sys_user,sys_user_role,sys_user_group,core_company,cmn_department,cmn_location|}$0
