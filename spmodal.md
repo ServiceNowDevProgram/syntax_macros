@@ -1,8 +1,8 @@
-## HTML
 # Service Portal Basic Modal
 This represents TWO different syntax macros.  Once for the html field and one for the client script field.  BOTH macros must be used in their respective fields for functional code.
 
-
+## HTML
+```
 <!-- Modal Content -->
 <script type="text/ng-template" id="myModal.html">
   <div class="modal-header">
@@ -18,10 +18,11 @@ This represents TWO different syntax macros.  Once for the html field and one fo
 
 <!-- Non-Modal Content -->
 <button type="button" class="btn btn-primary btn-lg" ng-click="openModal()">Open Modal</button>
+```
 
 
 ## Client Script
-
+```
 //Set modal options
 var modalOptions = {
   templateUrl:'myModal.html', //Template URL, as indicated in HTML <script> tag for modal content
@@ -37,3 +38,4 @@ $scope.openModal = function(){
 $scope.closeModal = function(){
   $scope.modalInstance.close();
 };
+```
