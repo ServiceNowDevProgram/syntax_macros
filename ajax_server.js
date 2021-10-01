@@ -24,6 +24,6 @@ scriptIncludeFunction: function () {
 
     return JSON.stringify(result_obj);
   } catch (error) {
-    gs.addErrorMessage("Error from Server: " + error);
+    gs.addErrorMessage("Error from Server: " + error.getMessage());
   }
 },
