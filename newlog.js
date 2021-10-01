@@ -1,1 +1,1 @@
-gs.${1|info,warn,error|}(gs.getMessage('$2',[]));
+gs.${1|info,warn,error|}(gs.getMessage('$2',[$0]));
