@@ -1,0 +1,19 @@
+ /*Call the script include UserDetails to fetch the user details from sys_user table
+     @ Inputs : Requester
+     @ Output : User details object - Location, Manager and job Title.
+ */
+ 
+var getUserDetails = new GlideAjax('UserDetails'); //if scoped, add the scope name in GlideAjax Parameter. e.g. 'sn_hr_core.UserDetails'
+getUserDetails.addParam('sysparm_name', 'getUserInfo'); // function call
+getUserDetails.addParam('sysparm_user_id', newValue); //passing the parameter
+getUserDetails.getXML(requesterInfo);
+
+function requesterInfo(response) {
+  var answer = response.responseXML.documentElement.getAttribute("answer");
+  var userDetailsObj = JSON.parse(answer); //Object contains nuser details
+  
+  //Set Field values from user details object - 
+  g_form.setValue('variable_1', userDetailsObj.user_field_1.toString());
+  g_form.setValue('variable_2', userDetailsObj.user_field_2.toString());
+  g_form.setValue('variable_3', userDetailsObj.user_field_3.toString());
+}
