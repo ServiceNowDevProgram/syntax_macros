@@ -6,6 +6,6 @@ rest.setHttpMethod("POST"); //POST, GET, etc.
 rest.setRequestHeader("Content-Type", "application/json");
 rest.setLogLevel("all");
 
-var response = tk.execute();
+var response = rest.execute();
 var responseBody = response.getBody();
 var httpStatus = response.getStatusCode();
