@@ -1,0 +1,3 @@
+spUtil.get("Widget ID or sys_id").then(function(response) {
+  c.coolClock = response;
+});
