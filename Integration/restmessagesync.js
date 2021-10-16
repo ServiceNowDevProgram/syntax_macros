@@ -19,4 +19,9 @@ try {
 }
 catch(ex) {
  var message = ex.message;
+ //gs.warn('Full Stack Details:'+JSON.stringify(ex,null,4));
+ 
+ //Optional: Throw full stack trace
+ //throw ex 
+ 
 }
