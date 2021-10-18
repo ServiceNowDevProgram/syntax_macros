@@ -1,4 +1,3 @@
-
 // create Script function which can be accessed from both Server side and Client side scripts (GlideAjax)
 
 functionName: function (param1,param2) {	
