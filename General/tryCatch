@@ -1,7 +1,0 @@
-try {
-        //your script 
-
-    } catch (ex) {
-        var message = ex.message;
-        gs.error("Error in system logs: " + message);
-    }
