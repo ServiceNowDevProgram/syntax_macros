@@ -1,0 +1,5 @@
+        var archIns = new GlideRecord('table');
+        archIns.initialize();
+        archIns.get('record sys id to clone');
+        archIns.number = new global.NumberManager('table name').getNextObjNumberPadded();
+        archIns.insert();

@@ -1,0 +1,21 @@
+   /*
+     * Return an object containing user field values
+     * @input {string} sys ID of the requested user
+     * @returns {JSON object}
+     */
+	
+    _getUserInfo: function() {
+        var userDetails = {};
+        var userId = this.getParameter('sysparm_user_id'); // attribute set in client script
+        var userObj = new GlideRecord('sys_user');
+        userObj.addQuery('sys_id', userId); //query
+        userObj.query();
+        if (userObj.next()) {
+            userDetails.field_1 = userObj.field_1.getDisplayValue();
+            userDetails.field_2 = userObj.field_2.sys_id.toString();
+            
+            //e.g. Manager field
+            userDetails.manager = userObj.manager.sys_id.toString();
+        }
+        return JSON.stringify(details); // return the details in a strigified JSON object. 
+    },
