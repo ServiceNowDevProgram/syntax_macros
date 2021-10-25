@@ -1,0 +1,2 @@
+//A shorter method to fetch a record when sys_id is known.
+var gr= new GlideRecordUtil().getGR("table_name","sys_id_of_a_record");
