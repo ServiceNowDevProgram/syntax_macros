@@ -22,6 +22,8 @@ try {
 } catch (ex) {
     responseBody = ex.getMessage();
     status = '500';
+    //gs.warn('Error processing outbound REST: '+responseBody);
+	
 } finally {
     requestBody = ws ? ws.getRequestBody() : null;
 }

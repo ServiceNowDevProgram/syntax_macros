@@ -1,0 +1,8 @@
+var getData = new global.GlideQuery('table_name')
+    .withAcls()
+    .limit(numberOfRecords) 
+    .orderByDesc('field_name')
+    .select('field_name')
+    .toArray();
+
+//Returns a JSON Object, use stringify function to convert into a string.
