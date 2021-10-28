@@ -1,4 +1,4 @@
-//generate a cart and insert an RITM
+//generate a cart and insert an RITM, for additional RITMs, copy line 7 & 8 as needed
 
 var cart = new Cart();
 var RITM = cart.addItem('sysid of cat item'); //first ritm
