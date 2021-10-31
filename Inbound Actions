@@ -1,0 +1,18 @@
+/*
+current.comments = email.body_text;
+
+if (email.body.short_description != undefined)
+    current.short_description = email.body.short_description;
+
+if (email.body_text.assign != undefined)
+    current.assigned_to = email.body_text.assign;
+ 
+if (email.body_text.priority != undefined)
+    current.priority = email.body_text.priority;
+ 
+if (email.body_text.category != undefined)
+    current.category = email.body_text.category;
+ 
+current.insert();
+
+*/
