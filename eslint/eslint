@@ -1,0 +1,3 @@
+/* ITEMIZE USED EXTERNAL/GLOBAL VARS AS CSV ARG TO "global" COMMENT */
+/* global Class,current */ 
+/* eslint no-undef:error,no-unused-vars:warn */
