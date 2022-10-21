@@ -2,6 +2,10 @@
 
 For community contributed [syntax macros](https://docs.servicenow.com/bundle/rome-application-development/page/script/general-scripting/concept/c_SyntaxEditor.html#r_SyntaxEditorMacros)
 
+🔔🔔🔔<br>
+***CONTRIBUTORS must follow all guidelines in [CONTRIBUTING.md](CONTRIBUTING.md)*** or run the risk of having your Pull Requests labeled as spam.<br>
+🔔🔔🔔
+
 ## 
 
 Syntax Macros are little snippets of code stored in ServiceNow that can quickly be used in script fields using shortcuts.  By typing the name of the syntax macro and then hitting TAB you can insert the code snippet directly into the field.  No more trying to remember how to format GlideAggregate or mistyping the word query.

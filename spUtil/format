@@ -1,0 +1,1 @@
+spUtil.format('An error ocurred: {error} when loading {widget}', {error: '404', widget: 'sp-widget'});
