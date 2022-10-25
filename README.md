@@ -1,7 +1,7 @@
 # Syntax Macros
 
 For community contributed [syntax macros](https://docs.servicenow.com/bundle/rome-application-development/page/script/general-scripting/concept/c_SyntaxEditor.html#r_SyntaxEditorMacros)
-
+ 
 🔔🔔🔔<br>
 ***CONTRIBUTORS must follow all guidelines in [CONTRIBUTING.md](CONTRIBUTING.md)*** or run the risk of having your Pull Requests labeled as spam.<br>
 🔔🔔🔔
