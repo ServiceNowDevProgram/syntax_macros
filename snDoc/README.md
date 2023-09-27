@@ -1,0 +1,3 @@
+Script Include method comments in JSDoc like format (https://jsdoc.app/index.html#block-tags). Instead of JSDoc it is actually SNDoc which is a share application that automatically creates service portal documentation based on this style of tags (https://developer.servicenow.com/connect.do#!/share/contents/6426327_sndoc?v=1.1).
+
+Even if you don't use the SNDoc share application it is still a very nice comment structure for your methods.

@@ -1,0 +1,7 @@
+var gdt1 = GlideDateTime('YYYY-MM-DD hh:mm:ss');
+
+var gdt2 = GlideDateTime('YYYY-MM-DD hh:mm:ss');
+
+var duration = gs.dateDiff(gdt1.getDisplayValue(), gdt2.getDisplayValue(), false);
+
+//If true, the value will be returned in number of seconds; if false the value will be returned in ddd hh:mm:ss format.
