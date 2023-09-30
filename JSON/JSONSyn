@@ -1,0 +1,7 @@
+//This Syntax would help to populate with JSON structure with sample key and values to quickly start
+
+var json_syn = {
+"key1":"value1",
+"key2":"value2"
+}
+
