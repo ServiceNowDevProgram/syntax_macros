@@ -5,6 +5,7 @@
 - Pull request descriptions must be explicit and descriptive to what is being changed.
   - Changes that are not within the scope of the description will result in the entire PR being rejected
 - Low effort/spam Pull Requests will be marked as spam accordingly.
+- Do not add files to the root directory of this repository.
 
 ## Process
 
