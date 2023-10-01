@@ -1,5 +1,5 @@
+![Heading](https://github.com/ServiceNowDevProgram/syntax_macros/assets/11089802/93175471-cae9-4e9d-9d7e-56086c19ed6f)
 
-![SyntaxMacros](https://github.com/mady22070/syntax_macros/assets/11089802/31d4f96b-93dc-493f-ab6c-36841a8d19c3)
 
 # Syntax Macros
 
