@@ -1,3 +1,6 @@
+![Heading](https://github.com/ServiceNowDevProgram/syntax_macros/assets/11089802/93175471-cae9-4e9d-9d7e-56086c19ed6f)
+
+
 # Syntax Macros
 
 For community contributed [syntax macros](https://docs.servicenow.com/bundle/vancouver-application-development/page/script/general-scripting/concept/c_SyntaxEditor.html)
