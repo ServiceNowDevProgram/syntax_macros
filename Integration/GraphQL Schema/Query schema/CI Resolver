@@ -1,0 +1,9 @@
+(function process(/*ResolverEnvironment*/ env) {
+
+    ci = env.getSource();  // this function will help you to get the sys_id of defined configuration item.
+	var now_gr = new GlideRecord('cmdb_ci');
+	now_gr.addQuery('sys_id',ci);  // this will check, if sys_id exist or not.
+	now_gr.query(); // This will return the entire record.
+	return now_gr;
+
+})(env);
