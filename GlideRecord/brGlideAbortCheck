@@ -1,0 +1,9 @@
+/**
+ * For example, check if a business rule has a setAbortAction(true) set.
+ * In these cases it may be useful not to execute the following business rules.
+ * This is ensured by the following script.
+ * It can be used in business rule scripts.
+ */
+if(current.isActionAborted()) {
+		return;
+}
