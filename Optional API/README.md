@@ -1,1 +1,0 @@
-The Optional API interacts with a single record returned by the GlideQuery, Stream, or GlideRecord APIs, even when it does not exist. Write scripts that are less likely to result in an error by handling null or undefined query results.
