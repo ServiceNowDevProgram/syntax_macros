@@ -7,7 +7,7 @@
  * // key2: value2
  * // key3: value3
  */
-let jsonObject = {
+var jsonObject = {
     "key1": "value1",
     "key2": "value2",
     "key3": "value3"
