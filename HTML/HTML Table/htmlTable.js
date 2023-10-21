@@ -1,0 +1,10 @@
+var htmlTable = '<table style="table-layout: fixed; height: 42px; background-color: #ffffff; margin: 0px; padding: 0px; align: left;" border="0" cellspacing="0" cellpadding="0" align="left">';
+htmlTable = htmlTable+'<tbody>';
+htmlTable = htmlTable+'<tr>';
+htmlTable = htmlTable+'<th style="width: 203px; height: 42px; align: center; background-color: #0bb316; border: 2px solid #0368d4" align="center" bgcolor="#0bb316" width="203" height="42"> Header VALUE HERE</th>';
+htmlTable = htmlTable+'</tr>';
+htmlTable = htmlTable+'<tr>';
+htmlTable = htmlTable+'<td style="width: 203px; height: 42px; align: center; background-color: #0bb316; border: 2px solid #0368d4" align="center" bgcolor="#0bb316" width="203" height="42"> Cell VALUE HERE</td>';
+htmlTable = htmlTable+'</tr>';
+htmlTable = htmlTable+'</tbody>';
+htmlTable = htmlTable+'</table>';
