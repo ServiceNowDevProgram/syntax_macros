@@ -1,0 +1,5 @@
+var obj = {"key1":"Value1","key2":"Value2"} // Sample JSON which can be replaced with any other JSON Object
+
+var out = new JSON().getKeys(obj); // Output is an array of 'JSON Object' obj keys
+
+
