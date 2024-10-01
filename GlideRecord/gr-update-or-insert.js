@@ -1,6 +1,6 @@
 //Description: This macro checks if a record exists based on a specific query. 
 //             If it does, it updates the designated field; if not, it creates a new record. 
-//             Make sure to modify table_name, field_name, field_to_update, and the associated values as needed.
+//             Modify table_name, field_name, field_to_update and the associated values as needed.
 
 
 //Code
