@@ -1,0 +1,15 @@
+var dtime = new GlideDateTime();
+
+gs.info('GMT time is -> ' + dtime);
+
+var targetTimezone = 'IST'; // give the correct Timezone code
+
+var timezone = Packages.java.util.TimeZone.getTimeZone(targetTimezone); 
+
+dtime.setTZ(timezone);
+
+var timeZoneOffSet = dtime.getTZOffset();
+
+dtime.setNumericValue(dtime.getNumericValue() + timeZoneOffSet);
+
+gs.info('IST time is -> ' + dtime);
