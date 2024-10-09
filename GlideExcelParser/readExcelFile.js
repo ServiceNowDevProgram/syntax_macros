@@ -8,7 +8,7 @@ var attStream = glideAttachment.getContentStream("<attachment_sys_id>"); //Repla
 excelParser.parse(attStream); 
 
 //Retrieve the column headers
-var headers = parser.getColumnHeaders();
+var headers = excelParser.getColumnHeaders();
 
 while(excelParser.next()) {
   var row = excelParser.getRow(); //JSON object of row
