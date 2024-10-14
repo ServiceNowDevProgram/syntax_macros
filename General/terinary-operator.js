@@ -1,0 +1,1 @@
+var expectedValue = (condition) ? /*code when condition evaluates to true*/ true_condition : /*code when condition evaluates to false*/ false_condition
