@@ -1,0 +1,1 @@
+Once the developer types applyFilter and press Tab in UIBuilder client script, it'll populate the syntax for Parfilter setting which gets stored in the parFilters state parameter and extensively used in filters in workspaces
