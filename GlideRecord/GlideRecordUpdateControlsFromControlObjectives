@@ -1,0 +1,16 @@
+// Description : This Business Rule prevents creation of duplicate records for account-contact in CSM module.
+//We will ensure this by checking if there is already an existing relationship which exists in sn_customerservice_contact_relationship
+//This BR will be written on insert-update on sn_customerservice_contact_relationship table itself. 
+
+
+	var gr = new GlideRecord("sn_customerservice_contact_relationship");
+	gr.addQuery('company', current.company);
+	gr.addQuery('contact', current.contact);
+	gr.setLimit(1);
+	gr.setWorkflow(false);
+	gr.query();
+	if (gr.hasNext()) {
+			gs.addErrorMessage(gs.getMessage("Duplicate records found with {0}, {1} combination.", [current.company.getDisplayValue(), current.contact.getDisplayValue()]));
+			current.setAbortAction(true);
+			return false;
+	}
