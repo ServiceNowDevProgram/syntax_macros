@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="syntax_editor_macro">
+    <syntax_editor_macro action="INSERT_OR_UPDATE">
+        <comments>ES12 supported systax for GlideRecord</comments>
+        <name>letgr</name>
+        <sys_class_name>syntax_editor_macro</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-26 17:20:26</sys_created_on>
+        <sys_id>e2fdf624c3e9d21095ac1173e401316d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>letgr</sys_name>
+        <sys_package display_value="ES12 Scripts" source="x_snc_es12_scripts">d67d7ee0c3e9d21095ac1173e401313f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ES12 Scripts">d67d7ee0c3e9d21095ac1173e401313f</sys_scope>
+        <sys_update_name>syntax_editor_macro_e2fdf624c3e9d21095ac1173e401316d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-26 17:20:26</sys_updated_on>
+        <text>let gr = new GlideRecord("$0");&#13;
+gr.addQuery("name", "value");&#13;
+gr.query();&#13;
+&#13;
+if (gr.next?.()) {&#13;
+    // Do something if the record exists&#13;
+}&#13;
+</text>
+    </syntax_editor_macro>
+</record_update>
