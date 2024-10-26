@@ -10,7 +10,6 @@
 ## Process
 
 1. Fork this repo
-2. Go to your ServiceNow instance
-3. Create a new branch (name it according to what functionality you are adding)
-4. Add/update folders and files on your branch
-6. Submit a pull request to the ServiceNowDevProgram/syntax_macros `main` branch
+2. Create a new branch (name it according to what functionality you are adding)
+3. Add/update folders and files on your branch
+5. Submit a pull request to the ServiceNowDevProgram/syntax_macros `main` branch
