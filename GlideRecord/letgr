@@ -1,0 +1,8 @@
+// Code for fethcing the records via GlideRecord supporting ES12 syntax
+let gr = new GlideRecord("$0");
+gr.addQuery("name", "value");
+gr.query();
+
+if (gr.next?.()) {
+    // Do something if the record exists
+}
