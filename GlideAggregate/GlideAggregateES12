@@ -1,0 +1,9 @@
+// Count records in a table that match a specific condition
+let ga = new GlideAggregate('table_name');
+ga.addAggregate('COUNT');
+ga.addQuery('field', 'value');
+ga.query();
+
+if (ga.next?.()) {
+    console.log(ga.getAggregate('COUNT') ?? 0);
+}
