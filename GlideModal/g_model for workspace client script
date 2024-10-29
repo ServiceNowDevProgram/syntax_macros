@@ -1,0 +1,10 @@
+g_modal.showFrame({
+        url: 'url of the UI page',
+        title: 'Model Title',
+        size: 'lg',
+        height: 500,
+		    width: 600,
+		    callback: function(){
+        //callback function
+		}
+    });
