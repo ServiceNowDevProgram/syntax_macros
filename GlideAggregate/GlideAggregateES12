@@ -5,5 +5,5 @@ ga.addQuery('field', 'value');
 ga.query();
 
 if (ga.next?.()) {
-    console.log(ga.getAggregate('COUNT') ?? 0);
+    gs.info(ga.getAggregate('COUNT') ?? 0);
 }
