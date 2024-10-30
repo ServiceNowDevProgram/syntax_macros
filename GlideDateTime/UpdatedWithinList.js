@@ -6,5 +6,5 @@ gr.addQuery('sys_updated_on', '>=', date);
 gr.query();
 
 while (gr.next?.()) {
-    console.log(`Incident ${gr.number} was updated within the last 30 days.`);
+    gs.info('Incident ${gr.number} was updated within the last 30 days.');
 }
