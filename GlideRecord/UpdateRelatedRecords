@@ -1,0 +1,15 @@
+// Retrieve related records from another table and process them
+let parentGR = new GlideRecord('parent_table');
+parentGR.addEncodedQuery('query');
+parentGR.query();
+
+while (parentGR.next?.()) {
+    let taskGR = new GlideRecord('child_table');
+    taskGR.addQuery('parent', parentGR.sys_id);
+    taskGR.query();
+
+    while (taskGR.next?.()) {
+        taskGR.state = 'value';
+        taskGR.update?.();
+    }
+}

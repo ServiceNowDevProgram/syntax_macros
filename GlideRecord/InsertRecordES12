@@ -1,0 +1,5 @@
+// Insert a new record 
+let gr = new GlideRecord('table_name');
+gr.initialize();
+gr.field_name = 'value';
+gr.insert?.();
